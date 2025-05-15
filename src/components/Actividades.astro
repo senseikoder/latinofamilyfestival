@@ -1,5 +1,9 @@
 ---
 import { Icon } from 'astro-icon/components';
+import Image from "astro/components/Image.astro"
+import music from "../images/music.jpg"
+import cosplayers from "../images/cosplayers.jpg"
+import activities from "../images/activities.jpg"
 ---
 
 <section class="section">
@@ -11,7 +15,7 @@ import { Icon } from 'astro-icon/components';
        <div class="column is-4">
          <div class="card has-background-success-light h-100">
            <div class="card-image">
-             <img src="src/images/music.jpg" alt="Concierto en vivo" class="is-rounded">
+             <Image src={music} alt="Concierto en vivo" class="is-rounded"/>
            </div>
            <div class="card-content has-text-centered">
              <span class="icon is-large">
@@ -29,7 +33,7 @@ import { Icon } from 'astro-icon/components';
        <div class="column is-4">
          <div class="card has-background-success-light h-100">
            <div class="card-image">
-             <img src="src/images/cosplayers.jpg" alt="Comida latina" class="is-rounded">
+             <Image src={cosplayers} alt="Comida latina" class="is-rounded"/>
            </div>
            <div class="card-content has-text-centered">
              <span class="icon is-large">
@@ -47,7 +51,7 @@ import { Icon } from 'astro-icon/components';
        <div class="column is-4">
          <div class="card has-background-success-light h-100">
            <div class="card-image">
-             <img src="src/images/activities.jpg" alt="Juegos infantiles" class="is-rounded">
+             <Image src={activities} alt="Juegos infantiles" class="is-rounded"/>
            </div>
            <div class="card-content has-text-centered">
              <span class="icon is-large">

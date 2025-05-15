@@ -1,35 +1,45 @@
+---
+import Image from "astro/components/Image.astro"
+import bethIsraelLaheyHealth from "../images/sponsors/beth-israel-lahey-health.png"
+import cambridgeSavinsBank from "../images/sponsors/cambridge-savins-bank.png"
+import goya from "../images/sponsors/goya.jpg"
+import redsox from "../images/sponsors/redsox.png"
+import massGeneralBrigham from "../images/sponsors/Mass-General-Brigham.png"
+import tjxLogo from "../images/sponsors/tjx_logo.png"
+---
+
 <section class="section">
    <div class="container">
      <div class="columns is-vcentered is-variable is-8">
        <div class="column has-text-centered">
          <figure class="image is-inline-block">
-           <img src="src/images/sponsors/beth-israel-lahey-health.png" alt="Patrocinador 1">
+           <Image src={bethIsraelLaheyHealth} alt="Beth Israel Lahey Health"/>
          </figure>
        </div>
        <div class="column has-text-centered">
          <figure class="image is-inline-block">
-           <img src="src/images/sponsors/cambridge-savins-bank.png" alt="Patrocinador 2">
+           <Image src={cambridgeSavinsBank} alt="Cambridge Savins Bank"/>
          </figure>
        </div>
        <div class="column has-text-centered">
          <figure class="image is-inline-block">
-           <img src="src/images/sponsors/goya.jpg" alt="Patrocinador 3">
+           <Image src={goya} alt="Goya"/>
          </figure>
        </div>
        <div class="column has-text-centered">
         <figure class="image is-inline-block">
-          <img src="src/images/sponsors/redsox.png" alt="Boston Red Sox">
+          <Image src={redsox} alt="Boston Red Sox"/>
         </figure>
       </div>
        <div class="column has-text-centered">
          <figure class="image is-inline-block">
-           <img src="src/images/sponsors/Mass-General-Brigham.png" alt="Patrocinador 4">
+           <Image src={massGeneralBrigham} alt="Mass General Brigham">
          </figure>
        </div>
        
        <div class="column has-text-centered">
          <figure class="image is-inline-block">
-           <img src="src/images/sponsors/tjx_logo.png" alt="TJX 6">
+           <Image src={tjxLogo} alt="TJX 6"/>
          </figure>
        </div>
      </div>
