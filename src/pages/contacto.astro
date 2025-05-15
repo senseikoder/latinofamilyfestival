@@ -1,0 +1,223 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contacto - Latino Family Festival">
+  <!-- Hero Section -->
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1 has-text-centered">Contacto</h1>
+        <p class="subtitle is-4 has-text-centered">
+          Estamos aquí para responder todas tus preguntas
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h2 class="title is-3">Envíanos un mensaje</h2>
+                <p class="subtitle is-5 mb-5">
+                  Completa el formulario y nos pondremos en contacto contigo lo antes posible.
+                </p>
+
+                <form>
+                  <div class="field">
+                    <label class="label">Nombre completo</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="text" placeholder="Tu nombre completo">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-user"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Correo electrónico</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="email" placeholder="tucorreo@ejemplo.com">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Teléfono</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="tel" placeholder="(123) 456-7890">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-phone"></i>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Asunto</label>
+                    <div class="control">
+                      <div class="select is-fullwidth">
+                        <select>
+                          <option>Selecciona una opción</option>
+                          <option>Información general</option>
+                          <option>Compra de entradas</option>
+                          <option>Patrocinios</option>
+                          <option>Expositores</option>
+                          <option>Otro</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Mensaje</label>
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox">
+                        Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="field mt-5">
+                    <div class="control">
+                      <button class="button is-primary is-fullwidth">Enviar mensaje</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Section -->
+  <section class="section has-background-light">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">Información de contacto</h2>
+      
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <div class="card h-100">
+            <div class="card-content has-text-centered">
+              <span class="icon is-large">
+                <i class="fas fa-map-marker-alt fa-3x has-text-primary"></i>
+              </span>
+              <h3 class="title is-4 mt-4">Dirección</h3>
+              <p class="subtitle is-6">
+                Fenway Park<br>
+                4 Jersey Street<br>
+                Boston, MA 02215
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column is-4">
+          <div class="card h-100">
+            <div class="card-content has-text-centered">
+              <span class="icon is-large">
+                <i class="fas fa-phone fa-3x has-text-primary"></i>
+              </span>
+              <h3 class="title is-4 mt-4">Teléfono</h3>
+              <p class="subtitle is-6">
+                Información general:<br>
+                (123) 456-7890<br><br>
+                Venta de entradas:<br>
+                (123) 456-7891
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column is-4">
+          <div class="card h-100">
+            <div class="card-content has-text-centered">
+              <span class="icon is-large">
+                <i class="fas fa-envelope fa-3x has-text-primary"></i>
+              </span>
+              <h3 class="title is-4 mt-4">Correo electrónico</h3>
+              <p class="subtitle is-6">
+                Información general:<br>
+                info@latinofamilyfestival.com<br><br>
+                Patrocinios:<br>
+                sponsors@latinofamilyfestival.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section p-0">
+    <div class="container is-fluid p-0">
+      <div class="columns is-gapless">
+        <div class="column is-12">
+          <div class="map-container" style="height: 400px; background-color: #e9e9e9; display: flex; align-items: center; justify-content: center;">
+            <p class="has-text-centered">
+              <span class="icon is-large">
+                <i class="fas fa-map fa-3x"></i>
+              </span>
+              <br>
+              <span class="is-size-5">Mapa de ubicación</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered mb-6">Preguntas frecuentes</h2>
+      
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <div class="box">
+              <h4 class="title is-5">¿Cuál es el horario del festival?</h4>
+              <p>El festival estará abierto de 10:00 AM a 10:00 PM durante los tres días del evento.</p>
+            </div>
+            
+            <div class="box">
+              <h4 class="title is-5">¿Hay estacionamiento disponible?</h4>
+              <p>Sí, contamos con estacionamiento limitado en las instalaciones. Te recomendamos llegar temprano o utilizar el transporte público.</p>
+            </div>
+            
+            <div class="box">
+              <h4 class="title is-5">¿Los niños pagan entrada?</h4>
+              <p>Los niños menores de 12 años entran gratis acompañados de un adulto con entrada.</p>
+            </div>
+            
+            <div class="box">
+              <h4 class="title is-5">¿Puedo llevar comida y bebida al festival?</h4>
+              <p>No se permite el ingreso de alimentos y bebidas externas. Contamos con una amplia variedad de opciones gastronómicas dentro del festival.</p>
+            </div>
+            
+            <div class="box">
+              <h4 class="title is-5">¿Qué pasa si llueve?</h4>
+              <p>El festival se realizará con lluvia o sol. Tenemos áreas cubiertas para protegerte en caso de mal tiempo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

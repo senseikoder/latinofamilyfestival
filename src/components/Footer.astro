@@ -1,0 +1,36 @@
+---
+import Image from "astro/components/Image.astro"
+import embLogo from "../images/elmundoboston_logo.webp"
+---
+
+
+<footer class="footer has-background-dark">
+   <div class="container">
+     <div class="columns">
+       <div class="column">
+         <!-- <h3 class="title is-5 has-text-white">Latino Family Festival</h3> -->
+         <Image src={embLogo} alt="El Mundo Boston" width="300" height="73"></Image>
+         <p class="has-text-grey-light">Presentado por El Mundo Boston</p>
+       </div>
+      
+       <div class="column">
+         <h3 class="title is-5 has-text-white">Síguenos</h3>
+         <div class="social-icons">
+           <a href="#" class="icon has-text-grey-light"><i class="fab fa-facebook fa-lg"></i></a>
+           <a href="#" class="icon has-text-grey-light"><i class="fab fa-twitter fa-lg"></i></a>
+           <a href="#" class="icon has-text-grey-light"><i class="fab fa-instagram fa-lg"></i></a>
+           <a href="#" class="icon has-text-grey-light"><i class="fab fa-youtube fa-lg"></i></a>
+         </div>
+       </div>
+       <div class="column">
+         <h3 class="title is-5 has-text-white">Contacto</h3>
+         <p class="has-text-grey-light"><i class="fas fa-map-marker-alt"></i> Fenway Park, Boston, MA</p>
+         <p class="has-text-grey-light"><i class="fas fa-phone"></i> (123) 456-7890</p>
+         <p class="has-text-grey-light"><i class="fas fa-envelope"></i> info@latinofamilyfestival.com</p>
+       </div>
+     </div>
+     <div class="content has-text-centered has-text-grey-light mt-6">
+       <p>&copy; {new Date().getFullYear()} Latino Family Festival. Todos los derechos reservados.</p>
+     </div>
+   </div>
+ </footer>
